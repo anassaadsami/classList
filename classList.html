@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="classList.css" />
+    
+    <title>classList</title>
+  </head>
+  <body>
+    click me so i will change div color <button class="btn">click</button>
+    <div class="div1">my color have been changed by button</div>
+
+    <!-- now we make 2 buttons one change a div property by add classname
+    to this element's classList, and onther back the element to its 
+    original state by remove this classname from its classList-->
+
+    <button class="on anas" id="on">on</button>
+    <button class="off">off</button>
+    <div class="div2">my color change by on button and back by off button</div>
+
+    <button id="switch">on/off</button>
+    <div class="div3">my color change and back by just one toggle button </div>
+    <hr>
+    
+    <button class="hidden">hidden</button>
+    <button class="show">show the hidden button</button>
+    <button class="willHidden">will be hidden </button>
+
+    <script src="classList.js"></script>
+  </body>
+</html>

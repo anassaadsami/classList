@@ -1,0 +1,27 @@
+.btn {
+    width: 100px;
+}
+.div1 , .div2 , .div3{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.on , .off {
+    width: 100px;
+    background-color: rgb(47, 255, 0);
+    
+}
+
+/* this is class name which we added to the div when we 
+click the on button in js file */
+.change {
+    background-color: rgb(123, 0, 255);
+}
+
+/* the element with classname hidden have display none ,
+but when we click show button so we remove this class name from 
+element so this will no works longer on it*/
+.hidden {
+    display: none;
+}
